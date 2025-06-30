@@ -1,5 +1,4 @@
 <?php
-
 use Bitrix\Main\Application;
 use Bitrix\Main\Config\Option;
 use Bitrix\Main\EventManager;
