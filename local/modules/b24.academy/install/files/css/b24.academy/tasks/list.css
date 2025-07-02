@@ -1,3 +1,8 @@
 .ui-btn-success {
     --ui-btn-background: #c5e7f4;
+    --ui-btn-border-color: #c5e7f4;
+    --ui-btn-background-hover: #2996c0;
+    --ui-btn-background-active: #c5e7f4;
+    --ui-btn-border-color-hover: #2996c0;
+    --ui-btn-border-color-active:#c5e7f4
 }
