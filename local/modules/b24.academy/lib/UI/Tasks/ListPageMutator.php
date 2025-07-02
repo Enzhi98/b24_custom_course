@@ -11,7 +11,7 @@ class ListPageMutator
     );
     public static function handlerOnEpilog(): void
     {
-        $page = CComponentEngine::parseComponentPath('/', listPageMutator::LIST_PAGE_TEMPLATES, $vars);
+        $page = CComponentEngine::parseComponentPath('/', ListPageMutator::LIST_PAGE_TEMPLATES, $vars);
         if ($page === false) {
             return;
         }

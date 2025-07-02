@@ -1,6 +1,3 @@
-.ui-btn-split ui-btn-success #tasks-buttonAdd,
-.ui-btn-split ui-btn-success #tasks-popupMenuAdd{
-    background-color: #c5e7f4;
-    border-color: #c5e7f4;
-    color: #ffff;
+.ui-btn-success {
+    --ui-btn-background: #c5e7f4;
 }

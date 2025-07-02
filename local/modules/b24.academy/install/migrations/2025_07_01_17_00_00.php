@@ -17,4 +17,4 @@ CopyDirFiles(
         ListPageMutator::class,
         'handlerOnEpilog'
     );
-Option::set('b24.academy', 'VERSION', 2025_07_01_15_05);
+Option::set('b24.academy', 'VERSION', 2025_07_01_17_00);

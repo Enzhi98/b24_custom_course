@@ -79,5 +79,5 @@ try {
         fwrite(STDERR, '[' . date('d.m.Y H:i:s') . '] ' . "Завершена миграция \"{$m['v']}\"" . PHP_EOL);
     }
 } catch (Exception $exception) {
-    fwrite(STDERR, "При выполнении программы возникла ошибка:\n$exception\n");
+    fwrite(STDERR, "При выполнении программы возникла ошибка:\n$exception\n \n$fileVersion\n \n$moduleVersion\n");
 }
