@@ -73,7 +73,7 @@ try {
         }
 
         fwrite(STDERR, '[' . date('d.m.Y H:i:s') . '] ' . "Начата миграция \"{$m['v']}\"" . PHP_EOL);
-
+        echo $migration;
         require_once $migration;
 
         fwrite(STDERR, '[' . date('d.m.Y H:i:s') . '] ' . "Завершена миграция \"{$m['v']}\"" . PHP_EOL);
