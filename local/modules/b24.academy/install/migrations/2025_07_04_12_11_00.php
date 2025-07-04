@@ -2,9 +2,6 @@
 use Bitrix\Main\Config\Option;
 use Bitrix\Main\EventManager;
 
-
-
-
 CopyDirFiles(
     dirname(__DIR__) . '/files/components',
     $_SERVER['DOCUMENT_ROOT'] . '/local/components',
@@ -28,4 +25,4 @@ $eventManager->registerEventHandler(
     'handleOnEpilog'
 );
 
-Option::set('b24.academy', 'VERSION', 2025_07_04_11_38_00);
+Option::set('b24.academy', 'VERSION', 2025_07_04_12_11_00);

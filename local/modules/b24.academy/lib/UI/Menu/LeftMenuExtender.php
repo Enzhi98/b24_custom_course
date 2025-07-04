@@ -24,11 +24,10 @@ class LeftMenuExtender
                     console.warn('Extra btn box is missing.');
                     return;
                 }
-                
                 const menuItem = document.createElement('div');
                 menuItem.id = 'companyFactMenuItem';
-                menuItem.innerText = BX.message('COMPANY_FACT');
-                menuItem.onclick = BX.academy.cssjs.menu.left.showFacts;
+                menuItem.innerText = 'Факты о компании';
+                menuItem.onclick = BX.b24.academy.menu.left.showFacts;
                 menuItem.style.color = '#eaeff8';
                 menuItem.style.cursor = 'pointer';
                 extraBtnBox.parentNode.insertBefore(menuItem, extraBtnBox);
