@@ -17,4 +17,4 @@ $eventManager->registerEventHandler(
     '\B24\Academy\UI\Tasks\ListPageMutator',
     'handleOnEpilog'
 );
-Option::set('b24.academy', 'VERSION', 2025_07_02_10_17_00);
+Option::set('b24.academy', 'VERSION', 2025_07_02_14_19_00);
