@@ -32,8 +32,8 @@ class CurrencyField extends BaseType
 
     private static function loadCurrencies(): array
     {
-        if (CurrencyField::$currencyList) {
-            return CurrencyField::$currencyList;
+        if (isset(self::$currencyList)) {
+            return self::$currencyList;
         }
 
         $names = CurrencyManager::getNameList();
