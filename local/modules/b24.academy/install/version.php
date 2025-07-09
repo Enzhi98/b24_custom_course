@@ -2,6 +2,6 @@
     defined('B_PROLOG_INCLUDED') || die;
 
     $arModulesVersion = array(
-        'VERSION' => '1.1.3',
-        'VERSION_DATE' => '2025-07-04 11:38:00'
+        'VERSION' => '1.5.2',
+        'VERSION_DATE' => '2025-07-08 16:22:00'
     );
